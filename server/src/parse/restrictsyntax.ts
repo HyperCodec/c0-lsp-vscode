@@ -643,7 +643,7 @@ export function restrictStatement(lang: Lang, syn: syn.Statement): ast.Statement
             return syn;
         }
         case "ContinueStatement": {
-            atleast(syn, lang, "C1", "'contine'");
+            atleast(syn, lang, "C1", "'continue'");
             return syn;
         }
         default:
